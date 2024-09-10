@@ -37,13 +37,31 @@ header #mid hr{
     bottom: 0;
 }
 header #right{
-    background-color: yellow;
+    display: flex;
+    align-items: center;
     position: absolute;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
     width: 55%;
-    height: 70%;
+    height: 50%;
     right: 0;
     z-index: -1;
     /* position: absolute; */
+}
+header #right ol{
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 10%;
+}
+header #right ol li{
+    height: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
 }
 #body{
     width: 80%;
