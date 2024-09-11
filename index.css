@@ -49,7 +49,6 @@ header #right{
     /* position: absolute; */
 }
 header #right ol{
-    flex-grow: 1;
     height: 100%;
     width: 100%;
     display: flex;
