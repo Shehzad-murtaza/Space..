@@ -49,10 +49,11 @@ header #right{
     width: 55%;
     height: 50%;
     right: 0;
-    z-index: -1;
+    z-index: 1;
     /* position: absolute; */
 }
 header #right ol{
+    z-index: -1;
     height: 100%;
     width: 100%;
     display: flex;
@@ -61,8 +62,14 @@ header #right ol{
     margin-right: 10%;
     margin-left: 10%;
 }
+#right ol hr{
+    margin-top: 15%;
+    border: 2px solid rgb(214, 214, 214);
+    border-radius: 10px;
+}
 header #right ol li{
     font-weight: 100;
+    z-index: 1;
     height: 100%;
     display: flex;
     color: white;
@@ -73,6 +80,7 @@ header #right ol b{
     color: white;
 }
 header #right ol ul{
+    z-index: -1;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -87,7 +95,9 @@ header #right .one hr{
     left: 3%;
 }
 
-
+header #right ol li:hover{
+    cursor: pointer;
+}
 
 #body{
     color: white;

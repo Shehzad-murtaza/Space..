@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+}
+header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 20vh;
+}
+header .one{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+header #left{
+    width: 10%;
+    height: 100%;
+    background-image: url(logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header #mid{
+    position: relative;
+    width: 37%;
+    height: 100%;
+}
+header #mid hr{
+    position: absolute;
+    height: 0;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+header #right{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    width: 55%;
+    height: 50%;
+    right: 0;
+    z-index: 1;
+    /* position: absolute; */
+}
+header #right ol{
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+header #right ol li{
+    font-weight: 100;
+    z-index: 7;
+    height: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+header #right ol b{
+    z-index: -1;
+    margin-inline: 5%;
+    color: white;
+}
+header #right ol ul{
+    z-index: -1;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    width: 95%;
+}
+header #right .two hr{
+    width: 65%;
+    position: absolute;
+    bottom: 0;
+    left: 3%;
+}
+header #right ol li:hover{
+    cursor: pointer;
+}
+#body{
+    color: white;
+    position: relative;
+    width: 80%;
+    height: 80vh;
+    padding-inline: 10%;
+}
+#body #left{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(image-mars.png);
+    background-repeat: no-repeat;
+    background-position: center bottom 10%;
+    background-size: 60%;
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    width: 50%;
+    height: 95%;
+    /* border: 1px solid red; */
+}
+#body #left b{
+    margin-right:5%;
+    font-size: 40px;
+    color: grey;
+}
+#body #left h1{
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(212, 212, 212);
+}
+#body #right{
+    position: absolute;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+    height: 75%;
+    /* border: 1px solid red; */
+}
+#body #right #head{
+    align-items: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    display: flex;
+    height: 10%;
+    /* border: 1px solid red; */
+}
+#right #head ol{
+    width: 45%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: rgb(167, 167, 167);
+}
+#right ol hr{
+    margin-top: 15%;
+    border: 2px solid rgb(214, 214, 214);
+    border-radius: 10px;
+}
+.body .cen{
+    width: 72%;
+    border: 1px solid grey;
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+#body #right li:hover{
+    cursor: pointer;
+}
+#right .body{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    height: 85%;
+    /* border: 1px solid red; */
+}
+#body #right .body .main{
+    font-size: 130px;
+    font-weight: 100;
+    color: rgb(224, 224, 224);
+}
+#body #right .body .main2{
+    color: rgb(167, 167, 167);
+    padding-right: 25%;
+    margin-top: 2%;
+    line-height: 35px;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#right .body #footer{
+    font-weight: 100;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(211, 211, 211);
+}
