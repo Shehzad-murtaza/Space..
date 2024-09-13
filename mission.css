@@ -183,3 +183,6 @@ header #right ol li:hover{
     cursor: pointer;
     background-color: white;
 }
+#bottom .three{
+    background-color: white !important;
+}
