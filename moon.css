@@ -28,6 +28,7 @@ header #left{
     background-position: center;
 }
 header #mid{
+    z-index: 2;
     position: relative;
     width: 37%;
     height: 100%;
